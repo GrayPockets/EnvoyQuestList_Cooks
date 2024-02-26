@@ -9,7 +9,7 @@
     <Teaser>Fixes for Envoy Quest List</Teaser>
     <Description>This mod fixes several items in "Envoy Quest List"[NEWLINE][NEWLINE][ICON_BULLET] Display City-State city-name instead of City-State Civilization name for City-States that are renamed</Description>
     <Authors>GrayPockets</Authors>
-    <SpecialThanks>Fampat</SpecialThanks>
+    <SpecialThanks>Stack Man</SpecialThanks>
     <AffectsSavedGames>false</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
