@@ -2,12 +2,12 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>[COLOR:184,134,11,255]GrayPockets[ENDCOLOR] - Envoy Quest List - Fixes</Name>
+    <Name>[COLOR:184,134,11,255]GrayPockets[ENDCOLOR] - Envoy Quest List - Cooks</Name>
     <Guid>4dd2db15-1988-48c6-84ce-c4a0774dd6d4</Guid>
     <ProjectGuid>28bd8fa5-15f6-44c2-a29e-7397e9982b08</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>Fixes for Envoy Quest List</Teaser>
-    <Description>This mod fixes several items in "Envoy Quest List"[NEWLINE][NEWLINE][ICON_BULLET] Display City-State city-name instead of City-State Civilization name for City-States that are renamed</Description>
+    <Teaser>Cooks for Envoy Quest List</Teaser>
+    <Description>This mod cooks several items in "Envoy Quest List"[NEWLINE][NEWLINE][ICON_BULLET] Display City-State City-name instead of City-State Civilization-name for City-States that are renamed</Description>
     <Authors>GrayPockets</Authors>
     <SpecialThanks>Stack Man</SpecialThanks>
     <AffectsSavedGames>false</AffectsSavedGames>
@@ -15,9 +15,9 @@
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
-    <AssemblyName>GrayPockets.EnvoyQuestList.Fixes</AssemblyName>
-    <RootNamespace>GrayPockets.EnvoyQuestList.Fixes</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><ImportFiles id="Import_EnvoyQuestListFixes"><Properties><LoadOrder>2</LoadOrder></Properties><File>Lua/eql_questpopup.lua</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <AssemblyName>GrayPockets.EnvoyQuestList.Cooks</AssemblyName>
+    <RootNamespace>GrayPockets.EnvoyQuestList.Cooks</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions><ImportFiles id="Import_EnvoyQuestListCooks"><Properties><LoadOrder>2</LoadOrder></Properties><File>Lua/eql_questpopup.lua</File></ImportFiles></InGameActions>]]></InGameActionData>
     <AssociationData><![CDATA[<Associations>
   <Dependency type="Mod" title="Envoy Quest List" id="389034b7-460b-40c1-be0c-a3240ebeff7b" />
 </Associations>]]></AssociationData>
@@ -33,10 +33,10 @@
     <Content Include="Lua\eql_questpopup.lua">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Envoy Quest List Fixes.png">
+    <Content Include="Envoy Quest List Cooks.png">
       <SubType>Content</SubType>
     </Content>
-    <None Include="Envoy Quest List Fixes.xcf">
+    <None Include="Envoy Quest List Cooks.xcf">
       <SubType>Content</SubType>
     </None>
     <None Include="README.md">

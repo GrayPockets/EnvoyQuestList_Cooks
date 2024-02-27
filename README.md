@@ -1,10 +1,10 @@
-# GrayPockets - Envoy Quest List - Fixes
+# GrayPockets - Envoy Quest List - Cooks
 
 ## Description
 
-This mod fixes several items in Envoy Quest List"
+This mod cooks several items in "Envoy Quest List"
 
-* Display City-State city-name instead of City-State Civilization name for City-States that are renamed
+* Display City-State City-name instead of City-State Civilization-name for City-States that are renamed
 
 ## Requirements
 
